@@ -1,0 +1,443 @@
+{
+  "id": "ISO_14708-1:2014",
+  "title": "Implants for surgery — Active implantable medical devices — Part 1: General requirements for safety, marking and for information to be provided by the manufacturer",
+  "short_title": "ISO 14708-1",
+  "filename": "ISO_14708-1.pdf",
+  "organization": "ISO",
+  "year": "2014",
+  "pages": 64,
+  "description": "The foundational safety standard for active implantable medical devices (AIMDs) including pacemakers, neurostimulators, implantable pumps, cochlear implants, and circulatory support devices. Establishes general requirements for device safety, sterile packaging, labeling/marking, and accompanying documentation. Covers protection against electrical hazards, mechanical forces, heat, EMI, defibrillation, and other environmental stresses. Serves as the parent standard for the ISO 14708 series, with particular standards (Parts 2-7) supplementing or modifying these requirements for specific device types.",
+  "scope": "Applies to active implantable medical devices powered by electrical energy or other sources (gas pressure, springs). Covers both implantable and non-implantable parts/accessories that could affect safety or performance. Type tests on samples demonstrate compliance. For devices with a particular standard (Parts 2-7), this general standard is not intended to be used alone.",
+  "sections": {
+    "1": "Scope - applicability to all AIMDs including electrically and non-electrically powered devices, implantable and non-implantable parts",
+    "2": "Normative references - ISO 8601, ISO 10993-1, ISO 11607-1, ISO 14155, ISO 14971, IEC 60068 series, IEC 60601-1, IEC 62304",
+    "3": "Terms and definitions - 40 defined terms including ACTIVE IMPLANTABLE MEDICAL DEVICE, BOS, EOS, RRT, PSP, LEAD, CATHETER, risk management terms",
+    "4": "Symbols and abbreviations - requires conformance with harmonized standards (e.g., ISO 15223-1) for symbols used in markings",
+    "5": "General requirements - IEC 60601-1 compliance for non-implantable parts, IEC 62304 software lifecycle, usability engineering, information security for wireless communication, ISO 14971 risk management, misconnection prevention",
+    "6": "Requirements for particular AIMDs - placeholder for device-specific requirements in Parts 2-7",
+    "7": "General arrangement of packaging - implantable parts supplied in non-reusable pack within sales packaging",
+    "8": "General markings - prominent warnings, traceability of implanted parts and components",
+    "9": "Markings on sales packaging - manufacturer info, device description, sterilization statement, dates, accessories, connector types, special purpose indication",
+    "10": "Construction of sales packaging - protection during storage/handling, humidity resistance, indelible markings, documentation association",
+    "11": "Markings on sterile pack - manufacturer, sterilization method, dates, device description, opening instructions",
+    "12": "Construction of non-reusable pack - ISO 11607-1 compliance, tamper-evident design, indelible markings",
+    "13": "Markings on the AIMD - manufacturer name, model/family name, serial/batch number, identification code readable without surgery",
+    "14": "Protection from biological effects - terminal sterilization (SAL 10⁻⁶), particulate matter limits, biocompatibility per ISO 10993-1, incorporated medicinal substances",
+    "15": "Protection from external physical features - IEC 60601-1 for non-implantable parts, no sharp edges on implantable parts",
+    "16": "Protection from electricity - IEC 60601-1 leakage current limits, DC current density ≤0.75 µA/mm², dielectric strength of insulated leads",
+    "17": "Protection from heat - implantable surface temperature ≤39°C (2°C above body temp), requirements for devices intended to supply heat",
+    "18": "Protection from ionizing radiation - sealed sources required, justification of radiation exposure, ALARA principle",
+    "19": "Protection from unintended effects - material aging, elective replacement indicator for non-rechargeable power sources, single fault analysis, side effects evaluation, medicinal substance compatibility, transcutaneous energy transfer",
+    "20": "Protection from external defibrillators - Test 1 (damped sinus 140V) and Test 2 (truncated exponential mono/biphasic) for implanted torso devices",
+    "21": "Protection from electrical fields applied to patient - diathermy and other electrical treatments, contraindication declarations",
+    "22": "Protection from miscellaneous medical treatments - diagnostic ultrasound immunity test (ISPTA ≥1500 mW/cm², 3.5 MHz), MRI compatibility declarations",
+    "23": "Protection from mechanical forces - drop test for hand-held/portable parts, vibration test (5-500 Hz random), shock test (500g), tensile/flexural requirements for leads/catheters, connector reliability",
+    "24": "Protection from electrostatic discharge - IEC 60601-1 ESD test on non-implantable parts, safe mode operation after ESD",
+    "25": "Protection from atmospheric pressure changes - withstand 70-150 kPa (approx. 3000m altitude to 5m water depth)",
+    "26": "Protection from temperature changes - IEC 60068-2-14 thermal cycling test (-10°C to +55°C default) on sterile-packed implantables",
+    "27": "Protection from electromagnetic non-ionizing radiation - immunity to EU General Public Reference Levels, risk assessment for EMI",
+    "28": "Accompanying documentation - comprehensive requirements for instructions for use, 30 subclauses covering manufacturer info, device characteristics, warnings, precautions, sterilization, disposal"
+  },
+  "annexes": {
+    "Annex A": {
+      "description": "General guidance and rationale - detailed explanations for specific clauses including software validation, usability, information security, packaging, biocompatibility, defibrillation testing, ultrasound testing, mechanical testing, EMI",
+      "normative": false,
+      "related_sections": ["5", "7", "8", "9", "10", "11", "13", "14", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"]
+    },
+    "Annex B": {
+      "description": "Relationship between fundamental principles in ISO/TR 14283:2004 and the clauses of ISO 14708-1 - detailed mapping table showing how each fundamental principle is addressed",
+      "normative": false,
+      "related_sections": ["general"]
+    }
+  },
+  "key_terms": [
+    "ACTIVE MEDICAL DEVICE",
+    "ACTIVE IMPLANTABLE MEDICAL DEVICE",
+    "AUTHORIZED REPRESENTATIVE",
+    "BEGINNING OF SERVICE",
+    "BOS",
+    "CATHETER",
+    "CORRECT USE",
+    "END OF SERVICE",
+    "EOS",
+    "HAND HELD",
+    "HARM",
+    "HAZARD",
+    "INFORMATION SECURITY",
+    "LABEL",
+    "LEAD",
+    "MANUFACTURER",
+    "MARKING",
+    "MEDICAL DEVICE",
+    "MEDICINAL SUBSTANCE",
+    "MEDICINAL SUBSTANCE DERIVED FROM HUMAN BLOOD OR HUMAN PLASMA",
+    "NON-REUSABLE PACK",
+    "NORMAL USE",
+    "PORTABLE",
+    "PROCESS",
+    "PROLONGED SERVICE PERIOD",
+    "PSP",
+    "RADIOACTIVE SUBSTANCE",
+    "RECOMMENDED REPLACEMENT TIME",
+    "RRT",
+    "RESIDUAL RISK",
+    "RISK",
+    "RISK ANALYSIS",
+    "RISK ASSESSMENT",
+    "RISK CONTROL",
+    "RISK EVALUATION",
+    "RISK MANAGEMENT",
+    "RISK MANAGEMENT FILE",
+    "SALES PACKAGING",
+    "SEALED SOURCE",
+    "STERILE PACK",
+    "USABILITY",
+    "USABILITY ENGINEERING",
+    "USE ERROR",
+    "VALIDATION"
+  ],
+  "key_tables": {
+    "Table 1": {
+      "description": "Timing parameters of test signal for Test 2 - pulse duration, rise time, fall time, commutation time for monophasic and biphasic truncated exponential defibrillation waveforms",
+      "location": "20.2",
+      "related_sections": ["20.2"]
+    }
+  },
+  "key_figures": {
+    "Figure 1": {
+      "description": "Damped sinus defibrillation waveform - showing Vtest(MAX), Tp, and Tw50 timing parameters for Test 1",
+      "location": "20.2",
+      "related_sections": ["20.2"]
+    },
+    "Figure 2": {
+      "description": "Defibrillation test voltage generator circuit - schematic showing <10 ohm source impedance requirement",
+      "location": "20.2",
+      "related_sections": ["20.2"]
+    },
+    "Figure 3": {
+      "description": "Timing sequence for Test 1 and Test 2 - three pulses positive polarity at 20s intervals, 60s wait, three pulses negative polarity",
+      "location": "20.2",
+      "related_sections": ["20.2"]
+    },
+    "Figure 4": {
+      "description": "Test setup for truncated exponential defibrillation waveform - circuit with 150µF capacitor, 65Ω resistor, coupled switches",
+      "location": "20.2",
+      "related_sections": ["20.2"]
+    },
+    "Figure 5": {
+      "description": "Biphasic defibrillation waveform for Test 2 - showing tr, tf, tc timing and Td pulse duration",
+      "location": "20.2",
+      "related_sections": ["20.2"]
+    },
+    "Figure A.1": {
+      "description": "RLC implementation for generating damped sinus defibrillation waveform - example circuit with C=330µF, L=13.3mH, RG=12Ω",
+      "location": "Annex A",
+      "related_sections": ["20.2"]
+    },
+    "Figure A.2": {
+      "description": "Positioning and scanning ultrasound field exposure upon implantable part - showing beam cross-section, scan pattern, and device positioning",
+      "location": "Annex A",
+      "related_sections": ["22.1"]
+    }
+  },
+  "related_standards": [
+    {
+      "id": "ISO_14708-2",
+      "relationship": "particular_standard",
+      "description": "Cardiac pacemakers - Particular requirements that supplement/modify this general standard for implantable pacemaker systems"
+    },
+    {
+      "id": "ISO_14708-3",
+      "relationship": "particular_standard",
+      "description": "Implantable neurostimulators - Particular requirements for spinal cord stimulators, deep brain stimulators, etc."
+    },
+    {
+      "id": "ISO_14708-4",
+      "relationship": "particular_standard",
+      "description": "Implantable infusion pumps - Particular requirements for drug delivery implants"
+    },
+    {
+      "id": "ISO_14708-5",
+      "relationship": "particular_standard",
+      "description": "Circulatory support devices - Particular requirements for ventricular assist devices (VADs)"
+    },
+    {
+      "id": "ISO_14708-6",
+      "relationship": "particular_standard",
+      "description": "Implantable defibrillators (tachyarrhythmia) - Particular requirements for ICDs"
+    },
+    {
+      "id": "ISO_14708-7",
+      "relationship": "particular_standard",
+      "description": "Cochlear implant systems - Particular requirements for hearing implants"
+    },
+    {
+      "id": "ISO_14971:2007",
+      "relationship": "normative_reference",
+      "description": "Risk management - Required for compliance with Clause 5.5; defines risk management process, risk analysis, evaluation, and control"
+    },
+    {
+      "id": "IEC_62304:2006",
+      "relationship": "normative_reference",
+      "description": "Medical device software lifecycle - Required for software of AIMDs per Clause 5.2; defines software development process"
+    },
+    {
+      "id": "IEC_60601-1:2005+AMD1:2012",
+      "relationship": "normative_reference",
+      "description": "Medical electrical equipment safety - Required for non-implantable parts per Clause 5.1; referenced throughout for test methods and requirements"
+    },
+    {
+      "id": "ISO_10993-1",
+      "relationship": "normative_reference",
+      "description": "Biological evaluation of medical devices - Required for biocompatibility assessment per Clause 14.3"
+    },
+    {
+      "id": "ISO_11607-1",
+      "relationship": "normative_reference",
+      "description": "Packaging for terminally sterilized medical devices - Required for non-reusable pack construction per Clause 12.1"
+    },
+    {
+      "id": "ISO_14155",
+      "relationship": "normative_reference",
+      "description": "Clinical investigation of medical devices - Referenced for side effects evaluation per Clause 19.4"
+    },
+    {
+      "id": "ISO/TS_10974",
+      "relationship": "informative_reference",
+      "description": "MRI safety for patients with AIMDs - Technical Specification for MR compatibility testing referenced in Clause 22.2"
+    },
+    {
+      "id": "ISO/TR_14283:2004",
+      "relationship": "informative_reference",
+      "description": "Fundamental principles for implants - Annex B maps all requirements to these principles; terminology consistency per Note 4 of Clause 1"
+    },
+    {
+      "id": "IEC_62366:2007",
+      "relationship": "informative_reference",
+      "description": "Usability engineering - Referenced for usability validation per Clause 5.3"
+    },
+    {
+      "id": "ISO_15223-1:2012",
+      "relationship": "informative_reference",
+      "description": "Medical device symbols - Referenced for standardized symbols in markings per Clause 4"
+    },
+    {
+      "id": "ISO_14708-1:2000",
+      "relationship": "supersedes",
+      "description": "First edition - This second edition (2014) cancels and replaces the first edition with technical revisions"
+    }
+  ],
+  "key_topics": [],
+  "suggested_cross_references": [
+    {
+      "topic": "active implantable medical device",
+      "aliases": ["AIMD", "active implant", "implantable device", "implantable medical device"],
+      "section": "3.2",
+      "note": "Definition and scope. Includes single devices or systems with implantable and non-implantable components."
+    },
+    {
+      "topic": "risk management",
+      "aliases": ["risk management process", "risk management file", "risk management plan", "ISO 14971"],
+      "section": "5.5",
+      "note": "Requires ISO 14971 compliance. Includes risk analysis, evaluation, and control. Risk management file required."
+    },
+    {
+      "topic": "software lifecycle",
+      "aliases": ["software requirements", "IEC 62304", "software validation", "AIMD software"],
+      "section": "5.2",
+      "note": "Requires IEC 62304 compliance for AIMD software. Software must be validated."
+    },
+    {
+      "topic": "usability",
+      "aliases": ["usability engineering", "human factors", "use error", "IEC 62366"],
+      "section": "5.3",
+      "note": "Usability engineering process required for non-implantable parts. References IEC 62366."
+    },
+    {
+      "topic": "information security",
+      "aliases": ["cybersecurity", "wireless security", "data security", "unauthorized access"],
+      "section": "5.4",
+      "note": "Required for wireless communication with implantable part. Evaluate through risk management."
+    },
+    {
+      "topic": "sterile packaging",
+      "aliases": ["non-reusable pack", "sterile pack", "sales packaging", "terminal sterilization"],
+      "section": "7",
+      "note": "Implantable parts must be supplied sterile in non-reusable pack. SAL 10⁻⁶ required per 14.1."
+    },
+    {
+      "topic": "labeling",
+      "aliases": ["marking", "label", "packaging marking", "device marking"],
+      "section": "8-13",
+      "note": "Comprehensive marking requirements for sales packaging (9), sterile pack (11), and device (13)."
+    },
+    {
+      "topic": "biocompatibility",
+      "aliases": ["biological evaluation", "ISO 10993", "tissue compatibility", "biological effects"],
+      "section": "14.3",
+      "note": "ISO 10993-1 assessment required for parts contacting tissues, cells, or body fluids."
+    },
+    {
+      "topic": "sterilization",
+      "aliases": ["terminal sterilization", "sterility assurance", "SAL", "sterilization validation"],
+      "section": "14.1",
+      "note": "SAL ≤10⁻⁶ required. Validated sterilization process. ISO 11135-1, ISO 11137, ISO 17665-1, or ISO 14937."
+    },
+    {
+      "topic": "particulate matter",
+      "aliases": ["particulates", "sterile dirt", "particle contamination"],
+      "section": "14.2",
+      "note": "Test method for counting particles. Vascular devices: ≤6000 particles ≥10µm, ≤600 particles ≥25µm."
+    },
+    {
+      "topic": "leakage current",
+      "aliases": ["DC current density", "electrical neutrality", "electrode current"],
+      "section": "16.2",
+      "note": "DC current density at implantable electrode surface ≤0.75 µA/mm². IEC 60601-1 for external parts."
+    },
+    {
+      "topic": "dielectric strength",
+      "aliases": ["insulation testing", "lead insulation", "electrical insulation"],
+      "section": "16.3",
+      "note": "Test voltage ≥2x peak voltage after 10-day saline soak preconditioning."
+    },
+    {
+      "topic": "thermal safety",
+      "aliases": ["temperature limits", "heating", "implant temperature"],
+      "section": "17.1",
+      "note": "Implantable surface ≤39°C (2°C above 37°C body temp) in normal operation or single fault."
+    },
+    {
+      "topic": "radioactive substances",
+      "aliases": ["ionizing radiation", "sealed source", "radiation protection"],
+      "section": "18",
+      "note": "Must be sealed sources. Justify radiation exposure. ALARA principle."
+    },
+    {
+      "topic": "elective replacement indicator",
+      "aliases": ["ERI", "battery indicator", "power source depletion", "RRT", "EOS"],
+      "section": "19.2",
+      "note": "Required for non-rechargeable power sources. Defines RRT, PSP, and EOS intervals."
+    },
+    {
+      "topic": "single fault safety",
+      "aliases": ["single fault analysis", "single component failure", "fault tolerance"],
+      "section": "19.3",
+      "note": "Single component/software failure shall not result in unacceptable risk. Document in risk management file."
+    },
+    {
+      "topic": "defibrillation protection",
+      "aliases": ["external defibrillation", "defibrillation immunity", "defib protection"],
+      "section": "20",
+      "note": "Test 1 (damped sinus) and Test 2 (truncated exponential) at 140V through 300Ω. Timing in Figure 3, Table 1."
+    },
+    {
+      "topic": "diathermy",
+      "aliases": ["electrosurgery", "electrical treatment", "RF diathermy"],
+      "section": "21.1",
+      "note": "Contraindication declarations required. Document in accompanying documentation per 28.26."
+    },
+    {
+      "topic": "ultrasound immunity",
+      "aliases": ["diagnostic ultrasound", "ultrasound protection", "acoustic testing"],
+      "section": "22.1",
+      "note": "Test at ISPTA ≥1500 mW/cm² (adjustable with attenuation factor), 3.5 MHz, 20% duty cycle, 3 min/position."
+    },
+    {
+      "topic": "MRI compatibility",
+      "aliases": ["MRI safety", "magnetic resonance", "MR conditional", "ISO/TS 10974"],
+      "section": "22.2",
+      "note": "Manufacturer must declare MRI conditions. References ISO/TS 10974 Technical Specification."
+    },
+    {
+      "topic": "mechanical testing",
+      "aliases": ["vibration test", "shock test", "drop test", "mechanical robustness"],
+      "section": "23",
+      "note": "Random vibration 5-500 Hz per 23.2. Shock 500g per 23.7. Drop test per IEC 60601-1 for portable parts."
+    },
+    {
+      "topic": "lead requirements",
+      "aliases": ["implantable leads", "catheter requirements", "lead tensile", "lead flexural"],
+      "section": "23.3-23.5",
+      "note": "Tensile, strain relief, and flexural requirements. Design analysis required."
+    },
+    {
+      "topic": "connector reliability",
+      "aliases": ["implantable connectors", "connection quality", "connector retention"],
+      "section": "23.6",
+      "note": "Manufacturer declares performance. Quality shall not degrade during use. Re-connection possible."
+    },
+    {
+      "topic": "electrostatic discharge",
+      "aliases": ["ESD", "ESD immunity", "static discharge"],
+      "section": "24.1",
+      "note": "IEC 60601-1 Clause 17 test on non-implantable parts. Must return to safe mode after ESD."
+    },
+    {
+      "topic": "pressure resistance",
+      "aliases": ["atmospheric pressure", "altitude", "diving", "pressure changes"],
+      "section": "25.1",
+      "note": "Withstand 70-150 kPa for 1 hour (approx. 3000m altitude to 5m water depth)."
+    },
+    {
+      "topic": "temperature cycling",
+      "aliases": ["thermal cycling", "temperature storage", "temperature transport"],
+      "section": "26.2",
+      "note": "IEC 60068-2-14 Test Nb. Default -10°C to +55°C at 1°C/min. Test in sterile pack only."
+    },
+    {
+      "topic": "electromagnetic immunity",
+      "aliases": ["EMI", "EMC", "electromagnetic interference", "RF immunity"],
+      "section": "27.1",
+      "note": "Meet EU General Public Reference Levels (ICNIRP 1998). Risk assessment for EMI. Particular standards may add specific tests."
+    },
+    {
+      "topic": "instructions for use",
+      "aliases": ["IFU", "accompanying documentation", "user manual", "physician manual"],
+      "section": "28",
+      "note": "30 subclauses covering all required documentation. Includes warnings, precautions, device info, sterilization, disposal."
+    },
+    {
+      "topic": "beginning of service",
+      "aliases": ["BOS", "release date", "manufacture date"],
+      "section": "3.4",
+      "note": "Point when AIMD first released by manufacturer as fit for placing on market."
+    },
+    {
+      "topic": "end of service",
+      "aliases": ["EOS", "device lifetime", "service life end"],
+      "section": "3.7",
+      "note": "Point when PSP has elapsed and performance to design specification cannot be assured."
+    },
+    {
+      "topic": "recommended replacement time",
+      "aliases": ["RRT", "battery replacement", "elective replacement"],
+      "section": "3.25",
+      "note": "When power source indicator reaches manufacturer-set value. Indicates entry into PSP."
+    },
+    {
+      "topic": "prolonged service period",
+      "aliases": ["PSP", "extended operation", "post-RRT period"],
+      "section": "3.23",
+      "note": "Period device continues functioning beyond RRT. Manufacturer defines interval."
+    },
+    {
+      "topic": "medicinal substance",
+      "aliases": ["drug delivery", "combination product", "incorporated drug"],
+      "section": "14.4",
+      "note": "If AIMD incorporates medicinal substance, safety and quality must be verified. Special requirements for blood-derived substances."
+    },
+    {
+      "topic": "clinical investigation",
+      "aliases": ["clinical trial", "investigational device", "ISO 14155"],
+      "section": "19.4",
+      "note": "Side effects evaluated by clinical data per ISO 14155 or published literature."
+    },
+    {
+      "topic": "transcutaneous energy transfer",
+      "aliases": ["TET", "wireless charging", "inductive charging"],
+      "section": "19.6",
+      "note": "If used, shall not result in unacceptable risk. Document in risk management file."
+    }
+  ]
+}

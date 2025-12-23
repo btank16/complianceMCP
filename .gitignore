@@ -1,0 +1,28 @@
+# Standards PDF files (proprietary/copyrighted content)
+data/pdfs/
+data/pdfs/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Claude files
+/.claude/
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
